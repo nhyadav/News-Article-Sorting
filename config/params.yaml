@@ -1,0 +1,40 @@
+base:
+  project_name: News Article Sorting
+  target: Category
+  random_state: 8
+
+data_source:
+  sample_submission: newsarticlesorting\data_raw\BBC News Sample Solution.csv
+  train: newsarticlesorting\data_raw\BBC News Train.csv
+  test: newsarticlesorting\data_raw\BBC News Test.csv
+
+load_data:
+  X_train: newsarticlesorting\data\X_train.pickle
+  X_test: newsarticlesorting\data\X_train.pickle
+  y_train: newsarticlesorting\data\y_train.pickle
+  y_test: newsarticlesorting\data\y_test.pickle
+  X_train_before_tfidf: newsarticlesorting\data\X_train_before_tfidf.pickle
+  X_test_before_tfidf: newsarticlesorting\data\X_test_before_tfidf.pickle
+  tfidf: newsarticlesorting\data\tfidf.pickle
+
+tfidf:
+  ngram_range: (1, 2)
+  max_df: 1.0
+  min_df: 10
+  max_features: 300
+  lowercase: False
+
+knn:
+  randomize_search:
+    cv: 5
+    verbose: 1
+    scoring: accuracy,
+    n_iter: 30,
+    
+  grid_search:
+    scoring: accuracy
+    verbose: 1
+  
+  save_dataframe: newsarticlesorting\model_accuracy\knn_dataframe.pickle
+  save_model: newsarticlesorting\model\knn_model.pickle
+
