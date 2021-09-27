@@ -2,20 +2,25 @@ base:
   project_name: News Article Sorting
   target: Category
   random_state: 8
+plot:
+  eda_count_plot: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\plots\eda_plot_with_count.png
+  eda_freq_plot: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\plots\eda_plot_with_frequency.png
+  testdata_eda_count_plot: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\plots\testdata_eda_plot_with_count.png
+  testdata_eda_freq_plot: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\plots\testdata_eda_plot_with_frequency.png
 
 data_source:
-  sample_submission: newsarticlesorting\data_raw\BBC News Sample Solution.csv
-  train: newsarticlesorting\data_raw\BBC News Train.csv
-  test: newsarticlesorting\data_raw\BBC News Test.csv
+  sample_submission: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data_raw\BBC News Sample solution.csv
+  train: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data_raw\BBC News Train.csv
+  test: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data_raw\BBC News Test.csv
 
 load_data:
-  X_train: newsarticlesorting\data\X_train.pickle
-  X_test: newsarticlesorting\data\X_train.pickle
-  y_train: newsarticlesorting\data\y_train.pickle
-  y_test: newsarticlesorting\data\y_test.pickle
-  X_train_before_tfidf: newsarticlesorting\data\X_train_before_tfidf.pickle
-  X_test_before_tfidf: newsarticlesorting\data\X_test_before_tfidf.pickle
-  tfidf: newsarticlesorting\data\tfidf.pickle
+  X_train: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\X_train.pickle
+  X_test: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\X_train.pickle
+  y_train: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\y_train.pickle
+  y_test: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\y_test.pickle
+  X_train_before_tfidf: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\X_train_before_tfidf.pickle
+  X_test_before_tfidf: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\X_test_before_tfidf.pickle
+  tfidf: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\tfidf.pickle
 
 tfidf:
   ngram_range: (1, 2)

@@ -1,0 +1,24 @@
+schema: '2.0'
+stages:
+  eda:
+    cmd: python src/eda.py
+    deps:
+    - path: data_raw\BBC News Sample Solution.csv
+      md5: 7089774b35a02d6bbfdd7fc7fff47311
+      size: 10369
+    - path: data_raw\BBC News Train.csv
+      md5: 97e496bd04df9a513f8d22793b7fc0f1
+      size: 3351206
+    outs:
+    - path: plots\eda_plot_with_count.png
+      md5: d5f0fc135bf76021f1a28e1074d3442a
+      size: 26216
+    - path: plots\eda_plot_with_frequency.png
+      md5: a2b7a68a5213843c9749c2b141dcce93
+      size: 40373
+    - path: plots\testdata_eda_plot_with_count.png
+      md5: f54865c1ce13d49ee965bda9d06b4373
+      size: 25656
+    - path: plots\testdata_eda_plot_with_frequency.png
+      md5: 1f13c2ef19d3bde7f113dee73ea4f6ea
+      size: 38445

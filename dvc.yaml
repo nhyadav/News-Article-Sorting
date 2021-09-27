@@ -1,0 +1,11 @@
+stages:
+  eda:
+    cmd: python src/eda.py
+    deps:
+    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data_raw\BBC News Sample Solution.csv
+    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data_raw\BBC News Train.csv
+    outs:
+    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\plots\eda_plot_with_count.png
+    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\plots\eda_plot_with_frequency.png
+    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\plots\testdata_eda_plot_with_count.png
+    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\plots\testdata_eda_plot_with_frequency.png
