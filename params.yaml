@@ -1,7 +1,7 @@
 base:
   project_name: News Article Sorting
   target: Category
-  random_state: 8
+  random_state: 42
 
 plot:
   eda_count_plot: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\plots\eda_plot_with_count.png
@@ -19,19 +19,10 @@ load_data:
   X_test: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\processed\X_test.pickle
   y_train: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\processed\y_train.pickle
   y_test: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\processed\y_test.pickle
-  X_train_before_tfidf: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\processed\X_train_before_tfidf.pickle
-  X_test_before_tfidf: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\processed\X_test_before_tfidf.pickle
   tfidf: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\processed\tfidf.pickle
   train: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\train.csv
   test_true: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\test_true.csv 
 
-
-test_category:
-  sport: 0
-  tech: 1
-  business: 2
-  entertainment: 3
-  politics: 4
 
 train_category:
   sport: 3
@@ -39,6 +30,7 @@ train_category:
   business: 0
   entertainment: 4
   politics: 2
+
 tfidf:
   ngram_range: (1, 2)
   max_df: 1.0
@@ -46,17 +38,15 @@ tfidf:
   max_features: 300
   lowercase: False
 
-knn:
-  randomize_search:
-    cv: 5
-    verbose: 1
-    scoring: accuracy,
-    n_iter: 30,
-    
-  grid_search:
-    scoring: accuracy
-    verbose: 1
-  
-  save_dataframe: newsarticlesorting\model_accuracy\knn_dataframe.pickle
-  save_model: newsarticlesorting\model\knn_model.pickle
+logistic_regression:
+  params:
+    C: 0.9
+    class_weight: balanced
+    multi_class: multinomial
+    penalty: l2
+    solver: newton-cg
+  save_model: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\models\logistic_regression_model.pickle
 
+reports:
+  parameters: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\reports\parameters.json
+  scores: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\reports\scores.json

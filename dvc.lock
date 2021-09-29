@@ -35,27 +35,59 @@ stages:
       md5: 97e496bd04df9a513f8d22793b7fc0f1
       size: 3351206
     - path: src\eda.py
-      md5: 0b89fe4b64437d40272a79a0f3f9ada5
-      size: 3377
+      md5: 20356a2b3b0373c023361908c8aed306
+      size: 3369
     outs:
     - path: data\processed\X_test.pickle
-      md5: 077506b7140c62b3d0609f4b2513723d
-      size: 122480560
+      md5: 807ad90ff9460fcb928f384a4786c8cf
+      size: 715360
     - path: data\processed\X_train.pickle
-      md5: 091ffe91e3fc348e4a6fea88336ba435
-      size: 248293760
+      md5: 0abcba45b3c97353d69f1c3f59d0bc42
+      size: 2860960
     - path: data\processed\tfidf.pickle
-      md5: d68bb08cb5d715b3272db6567acf6d1e
-      size: 737
+      md5: 07555596ae588c0f324bbacb720f54aa
+      size: 641
     - path: data\processed\y_test.pickle
-      md5: 2e85e9b59ae5c9e0d40a516922ac6b27
-      size: 6039
+      md5: 23a5c7c74818d2d684ccbe2e85232cab
+      size: 7892
     - path: data\processed\y_train.pickle
-      md5: ef0f88834d348c19031d0adfa8586920
-      size: 12079
-    - path: data\test_true.csv
-      md5: 60c87b98369035b15b26e6e16ddae757
-      size: 14682
+      md5: 371e51ccb5965e3d90d6c1f6ca1c8640
+      size: 29348
     - path: data\train.csv
       md5: 9a458e4aa462212018f3ac4542a24339
       size: 3360539
+  model_creating:
+    cmd: python src/model_creating.py
+    deps:
+    - path: data\processed\X_test.pickle
+      md5: 807ad90ff9460fcb928f384a4786c8cf
+      size: 715360
+    - path: data\processed\X_train.pickle
+      md5: 0abcba45b3c97353d69f1c3f59d0bc42
+      size: 2860960
+    - path: data\processed\y_test.pickle
+      md5: 23a5c7c74818d2d684ccbe2e85232cab
+      size: 7892
+    - path: data\processed\y_train.pickle
+      md5: 371e51ccb5965e3d90d6c1f6ca1c8640
+      size: 29348
+    - path: src\eda.py
+      md5: 20356a2b3b0373c023361908c8aed306
+      size: 3369
+    params:
+      params.yaml:
+        logistic_regression.params.C: 0.9
+        logistic_regression.params.class_weight: balanced
+        logistic_regression.params.multi_class: multinomial
+        logistic_regression.params.penalty: l2
+        logistic_regression.params.solver: newton-cg
+    outs:
+    - path: models\logistic_regression_model.pickle
+      md5: 7c40aabc3b947017d7a0751e437f6757
+      size: 12932
+    - path: reports\parameters.json
+      md5: b14f0f68f2436c5aa82c1921eb04e2c3
+      size: 136
+    - path: reports\scores.json
+      md5: 71ec2c4bec049963495baedd7d05bd00
+      size: 96
