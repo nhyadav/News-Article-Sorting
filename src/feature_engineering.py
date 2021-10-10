@@ -49,20 +49,26 @@ def feature_engineering(params):
     train_path = params['data_source']['train']
     
     #####################tfidf parametrs################
-
-    max_df = params['tfidf']['max_df']
-    min_df = params['tfidf']['min_df']
+    sublinear_tf = params['tfidf']['sublinear_tf']
     max_features = params['tfidf']['max_features']
+    min_df = params['tfidf']['min_df']
+    norm = params['tfidf']['norm']
+    encoding = params['tfidf']['encoding']
+    ngram_range = params['tfidf']['ngram_range']
+    stop_words = params['tfidf']['stop_words']
     lowercase = params['tfidf']['lowercase']
-    tfidf = TfidfVectorizer(ngram_range = (1, 2),
-                            max_df = max_df,
-                            min_df = min_df,
+    tfidf = TfidfVectorizer(
+                            sublinear_tf = sublinear_tf,
                             max_features = max_features,
+                            min_df = min_df,
+                            norm = norm,
+                            encoding = encoding,
+                            ngram_range = (1, 2),
+                            stop_words = stop_words,
                             lowercase = lowercase
-                            )
+    )
     tfidf_path = params['load_data']['tfidf']
-    with open(tfidf_path, 'wb') as output:
-        pickle.dump(tfidf, output)
+    
     # #####################save path after tfidf##########
     save_tfidf_train_path = params['load_data']['X_train']
     save_tfidf_test_path = params['load_data']['X_test']
@@ -70,7 +76,6 @@ def feature_engineering(params):
     save_tfidf_ytest_path = params['load_data']['y_test']
     # ##################save dataset after categoriesed###
     save_train = params['load_data']['train']
-    save_test_true_data = params['load_data']['test_true']
     ####################import dataset##################
     train_data = pd.read_csv(train_path)
     
@@ -79,8 +84,10 @@ def feature_engineering(params):
     categorised_target(train_data, save_train, train_cat)
     
     # ######################Tokenization##################
-    train_data_container = tokenization_normalization(train_data)
-
+    # train_data_container = tokenization_normalization(train_data)
+    train_data_container = tfidf.fit_transform(train_data.Text).toarray()
+    with open(tfidf_path, 'wb') as output:
+        pickle.dump(tfidf, output)
     #########################split data#################
     random_state = params['base']['random_state']
     y_trn = train_data.replace({'Category': train_cat})
@@ -89,12 +96,10 @@ def feature_engineering(params):
                                                     test_size=0.20,
                                                     random_state=random_state)
     ####################Text representation#############
-    text_representation(tfidf,
-                        X_train,
-                        X_test,
-                        save_tfidf_train_path,
-                        save_tfidf_test_path
-                        )
+    with open(save_tfidf_train_path,'wb') as output:
+        pickle.dump(X_train, output)
+    with open(save_tfidf_test_path,'wb') as output:
+        pickle.dump(X_test, output)
     ################y_train, y_test#####################
     with open(save_tfidf_ytrain_path,'wb') as output:
         pickle.dump(y_train, output)

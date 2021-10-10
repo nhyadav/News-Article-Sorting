@@ -74,7 +74,7 @@ def test_frequency_plot(data, path):
 
 
 def get_parameter(path):
-    with open(path) as p:
+    with open(path, encoding='utf-8') as p:
         yaml_parameter = yaml.safe_load(p)
     return yaml_parameter
 
