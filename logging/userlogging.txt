@@ -1,0 +1,380 @@
+2021-10-15 13:21:37 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 13:22:01 WARNING-user is ready for test news article.
+2021-10-15 13:23:07 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:19:12 INFO-News Articles Sorting ready for use!
+2021-10-15 21:19:12 INFO-Paramters loaded successfully.
+2021-10-15 21:20:03 WARNING-Not Found: /favicon.ico
+2021-10-15 21:20:32 INFO-Model loaded successfully!.
+2021-10-15 21:20:33 INFO-tfidf vectorization loaded successfully!.
+2021-10-15 21:20:33 INFO-Text representation have done.
+2021-10-15 21:20:33 INFO-Model has predicted successfully!.
+2021-10-15 21:20:33 INFO-Output have printed on webpage.
+2021-10-15 21:21:26 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:21:26 DEBUG-Using selector: SelectSelector
+2021-10-15 21:21:27 INFO-News Articles Sorting ready for use!
+2021-10-15 21:21:27 INFO-Paramters loaded successfully.
+2021-10-15 21:21:34 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:21:34 DEBUG-Using selector: SelectSelector
+2021-10-15 21:22:00 INFO-News Articles Sorting ready for use!
+2021-10-15 21:22:00 INFO-Paramters loaded successfully.
+2021-10-15 21:22:05 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:22:05 DEBUG-Using selector: SelectSelector
+2021-10-15 21:22:30 INFO-News Articles Sorting ready for use!
+2021-10-15 21:22:30 INFO-Paramters loaded successfully.
+2021-10-15 21:22:36 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:22:36 DEBUG-Using selector: SelectSelector
+2021-10-15 21:22:37 INFO-News Articles Sorting ready for use!
+2021-10-15 21:22:37 INFO-Paramters loaded successfully.
+2021-10-15 21:22:40 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:22:40 DEBUG-Using selector: SelectSelector
+2021-10-15 21:22:41 INFO-News Articles Sorting ready for use!
+2021-10-15 21:22:41 INFO-Paramters loaded successfully.
+2021-10-15 21:22:46 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:22:46 DEBUG-Using selector: SelectSelector
+2021-10-15 21:22:47 INFO-News Articles Sorting ready for use!
+2021-10-15 21:22:47 INFO-Paramters loaded successfully.
+2021-10-15 21:22:50 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:22:50 DEBUG-Using selector: SelectSelector
+2021-10-15 21:22:59 INFO-News Articles Sorting ready for use!
+2021-10-15 21:22:59 INFO-Paramters loaded successfully.
+2021-10-15 21:23:01 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:23:01 DEBUG-Using selector: SelectSelector
+2021-10-15 21:23:02 INFO-News Articles Sorting ready for use!
+2021-10-15 21:23:02 INFO-Paramters loaded successfully.
+2021-10-15 21:23:07 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:23:07 DEBUG-Using selector: SelectSelector
+2021-10-15 21:23:08 INFO-News Articles Sorting ready for use!
+2021-10-15 21:23:08 INFO-Paramters loaded successfully.
+2021-10-15 21:23:14 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:23:14 DEBUG-Using selector: SelectSelector
+2021-10-15 21:23:15 INFO-News Articles Sorting ready for use!
+2021-10-15 21:23:15 INFO-Paramters loaded successfully.
+2021-10-15 21:23:17 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:23:17 DEBUG-Using selector: SelectSelector
+2021-10-15 21:23:18 INFO-News Articles Sorting ready for use!
+2021-10-15 21:23:18 INFO-Paramters loaded successfully.
+2021-10-15 21:23:19 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:23:19 DEBUG-Using selector: SelectSelector
+2021-10-15 21:23:20 INFO-News Articles Sorting ready for use!
+2021-10-15 21:23:20 INFO-Paramters loaded successfully.
+2021-10-15 21:23:24 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:23:24 DEBUG-Using selector: SelectSelector
+2021-10-15 21:23:25 INFO-News Articles Sorting ready for use!
+2021-10-15 21:23:25 INFO-Paramters loaded successfully.
+2021-10-15 21:25:00 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:25:00 DEBUG-Using selector: SelectSelector
+2021-10-15 21:25:01 INFO-News Articles Sorting ready for use!
+2021-10-15 21:25:01 INFO-Paramters loaded successfully.
+2021-10-15 21:28:14 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:28:14 DEBUG-Using selector: SelectSelector
+2021-10-15 21:28:15 INFO-News Articles Sorting ready for use!
+2021-10-15 21:28:15 INFO-Paramters loaded successfully.
+2021-10-15 21:28:16 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:28:16 DEBUG-Using selector: SelectSelector
+2021-10-15 21:28:17 INFO-News Articles Sorting ready for use!
+2021-10-15 21:28:17 INFO-Paramters loaded successfully.
+2021-10-15 21:28:18 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:28:18 DEBUG-Using selector: SelectSelector
+2021-10-15 21:28:19 INFO-News Articles Sorting ready for use!
+2021-10-15 21:28:19 INFO-Paramters loaded successfully.
+2021-10-15 21:28:21 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:28:21 DEBUG-Using selector: SelectSelector
+2021-10-15 21:28:22 INFO-News Articles Sorting ready for use!
+2021-10-15 21:28:22 INFO-Paramters loaded successfully.
+2021-10-15 21:28:27 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:28:27 DEBUG-Using selector: SelectSelector
+2021-10-15 21:28:28 INFO-News Articles Sorting ready for use!
+2021-10-15 21:28:28 INFO-Paramters loaded successfully.
+2021-10-15 21:28:32 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:28:32 DEBUG-Using selector: SelectSelector
+2021-10-15 21:28:33 INFO-News Articles Sorting ready for use!
+2021-10-15 21:28:33 INFO-Paramters loaded successfully.
+2021-10-15 21:28:39 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:28:39 DEBUG-Using selector: SelectSelector
+2021-10-15 21:28:40 INFO-News Articles Sorting ready for use!
+2021-10-15 21:28:40 INFO-Paramters loaded successfully.
+2021-10-15 21:28:43 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:28:43 DEBUG-Using selector: SelectSelector
+2021-10-15 21:28:44 INFO-News Articles Sorting ready for use!
+2021-10-15 21:28:44 INFO-Paramters loaded successfully.
+2021-10-15 21:28:45 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:28:45 DEBUG-Using selector: SelectSelector
+2021-10-15 21:28:46 INFO-News Articles Sorting ready for use!
+2021-10-15 21:28:46 INFO-Paramters loaded successfully.
+2021-10-15 21:28:54 WARNING-Please put text in textbox.
+2021-10-15 21:30:26 WARNING-Please put text in textbox.
+2021-10-15 21:30:39 INFO-Model loaded successfully!.
+2021-10-15 21:30:39 INFO-tfidf vectorization loaded successfully!.
+2021-10-15 21:30:39 INFO-Text representation have done.
+2021-10-15 21:30:39 INFO-Model has predicted successfully!.
+2021-10-15 21:30:39 INFO-Output have printed on webpage.
+2021-10-15 21:39:46 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:39:46 DEBUG-Using selector: SelectSelector
+2021-10-15 21:39:47 INFO-News Articles Sorting ready for use!
+2021-10-15 21:39:47 INFO-Paramters loaded successfully.
+2021-10-15 21:39:50 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:39:50 DEBUG-Using selector: SelectSelector
+2021-10-15 21:40:15 INFO-News Articles Sorting ready for use!
+2021-10-15 21:40:15 INFO-Paramters loaded successfully.
+2021-10-15 21:40:18 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:40:18 DEBUG-Using selector: SelectSelector
+2021-10-15 21:40:18 INFO-News Articles Sorting ready for use!
+2021-10-15 21:40:18 INFO-Paramters loaded successfully.
+2021-10-15 21:40:34 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-15 21:40:34 DEBUG-Using selector: SelectSelector
+2021-10-15 21:40:50 INFO-News Articles Sorting ready for use!
+2021-10-15 21:40:50 INFO-Paramters loaded successfully.
+2021-10-15 21:41:40 INFO-Model loaded successfully!.
+2021-10-15 21:41:40 INFO-tfidf vectorization loaded successfully!.
+2021-10-15 21:41:40 INFO-Text representation have done.
+2021-10-15 21:41:40 INFO-Model has predicted successfully!.
+2021-10-15 21:41:40 INFO-Output have printed on webpage.
+2021-10-15 21:41:53 INFO-Model loaded successfully!.
+2021-10-15 21:41:53 INFO-tfidf vectorization loaded successfully!.
+2021-10-15 21:41:53 INFO-Text representation have done.
+2021-10-15 21:41:53 INFO-Model has predicted successfully!.
+2021-10-15 21:41:53 INFO-Output have printed on webpage.
+2021-10-15 21:41:59 WARNING-Please put text in textbox.
+2021-10-15 21:42:02 WARNING-Please put text in textbox.
+2021-10-15 21:42:04 WARNING-Please put text in textbox.
+2021-10-15 21:42:44 WARNING-Please put text in textbox.
+2021-10-15 21:43:09 WARNING-Please put text in textbox.
+2021-10-15 21:43:21 INFO-Model loaded successfully!.
+2021-10-15 21:43:21 INFO-tfidf vectorization loaded successfully!.
+2021-10-15 21:43:21 INFO-Text representation have done.
+2021-10-15 21:43:21 INFO-Model has predicted successfully!.
+2021-10-15 21:43:21 INFO-Output have printed on webpage.
+2021-10-15 21:44:29 INFO-Model loaded successfully!.
+2021-10-15 21:44:29 INFO-tfidf vectorization loaded successfully!.
+2021-10-15 21:44:29 INFO-Text representation have done.
+2021-10-15 21:44:29 INFO-Model has predicted successfully!.
+2021-10-15 21:44:29 INFO-Output have printed on webpage.
+2021-10-15 21:44:38 WARNING-Please put text in textbox.
+2021-10-15 21:45:07 WARNING-Please put text in textbox.
+2021-10-15 21:45:24 WARNING-Please put text in textbox.
+2021-10-15 21:45:31 WARNING-Please put text in textbox.
+2021-10-15 21:45:43 WARNING-Please put text in textbox.
+2021-10-15 21:47:21 WARNING-Please put text in textbox.
+2021-10-15 21:48:23 WARNING-Please put text in textbox.
+2021-10-15 21:49:43 WARNING-Please put text in textbox.
+2021-10-15 21:54:13 WARNING-Please put text in textbox.
+2021-10-15 21:55:34 WARNING-Please put text in textbox.
+2021-10-15 21:55:56 WARNING-Please put text in textbox.
+2021-10-15 21:56:20 WARNING-Please put text in textbox.
+2021-10-15 21:57:10 WARNING-Please put text in textbox.
+2021-10-15 21:57:30 WARNING-Please put text in textbox.
+2021-10-15 21:58:10 WARNING-Please put text in textbox.
+2021-10-15 22:01:36 DEBUG-Using selector: SelectSelector
+2021-10-16 16:42:39 INFO-News Articles Sorting ready for use!
+2021-10-16 16:42:39 INFO-Paramters loaded successfully.
+2021-10-16 16:42:46 WARNING-Not Found: /favicon.ico
+2021-10-16 16:42:56 WARNING-Please put text in textbox.
+2021-10-16 16:43:19 INFO-Model loaded successfully!.
+2021-10-16 16:43:19 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 16:43:19 INFO-Text representation have done.
+2021-10-16 16:43:19 INFO-Model has predicted successfully!.
+2021-10-16 16:43:19 INFO-Output have printed on webpage.
+2021-10-16 16:43:56 INFO-Model loaded successfully!.
+2021-10-16 16:43:56 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 16:43:56 INFO-Text representation have done.
+2021-10-16 16:43:56 INFO-Model has predicted successfully!.
+2021-10-16 16:43:56 INFO-Output have printed on webpage.
+2021-10-16 16:43:57 ERROR-Internal Server Error: /predict
+Traceback (most recent call last):
+  File "C:\Users\narayan hari yadav\anaconda3\envs\newsartsort\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\narayan hari yadav\anaconda3\envs\newsartsort\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py", line 76, in predict
+    return render(request, "newsarticle/index.html",result_final)
+  File "C:\Users\narayan hari yadav\anaconda3\envs\newsartsort\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\narayan hari yadav\anaconda3\envs\newsartsort\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\narayan hari yadav\anaconda3\envs\newsartsort\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\narayan hari yadav\anaconda3\envs\newsartsort\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\narayan hari yadav\anaconda3\envs\newsartsort\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\narayan hari yadav\anaconda3\envs\newsartsort\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\narayan hari yadav\anaconda3\envs\newsartsort\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\narayan hari yadav\anaconda3\envs\newsartsort\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\narayan hari yadav\anaconda3\envs\newsartsort\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\narayan hari yadav\anaconda3\envs\newsartsort\lib\site-packages\django\template\base.py", line 449, in parse
+    raise self.error(token, e)
+  File "C:\Users\narayan hari yadav\anaconda3\envs\newsartsort\lib\site-packages\django\template\base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\narayan hari yadav\anaconda3\envs\newsartsort\lib\site-packages\django\template\base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\narayan hari yadav\anaconda3\envs\newsartsort\lib\site-packages\django\template\base.py", line 657, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "C:\Users\narayan hari yadav\anaconda3\envs\newsartsort\lib\site-packages\django\template\base.py", line 569, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'round'
+2021-10-16 16:45:08 INFO-Model loaded successfully!.
+2021-10-16 16:45:08 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 16:45:08 INFO-Text representation have done.
+2021-10-16 16:45:08 INFO-Model has predicted successfully!.
+2021-10-16 16:45:08 INFO-Output have printed on webpage.
+2021-10-16 16:45:30 INFO-Model loaded successfully!.
+2021-10-16 16:45:31 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 16:45:31 INFO-Text representation have done.
+2021-10-16 16:45:31 INFO-Model has predicted successfully!.
+2021-10-16 16:45:31 INFO-Output have printed on webpage.
+2021-10-16 16:45:39 WARNING-Please put text in textbox.
+2021-10-16 16:45:41 WARNING-Please put text in textbox.
+2021-10-16 16:45:42 WARNING-Please put text in textbox.
+2021-10-16 16:45:42 WARNING-Please put text in textbox.
+2021-10-16 16:45:46 INFO-Model loaded successfully!.
+2021-10-16 16:45:46 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 16:45:46 INFO-Text representation have done.
+2021-10-16 16:45:46 INFO-Model has predicted successfully!.
+2021-10-16 16:45:46 INFO-Output have printed on webpage.
+2021-10-16 16:46:46 INFO-Model loaded successfully!.
+2021-10-16 16:46:46 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 16:46:46 INFO-Text representation have done.
+2021-10-16 16:46:46 INFO-Model has predicted successfully!.
+2021-10-16 16:46:46 INFO-Output have printed on webpage.
+2021-10-16 16:47:54 INFO-Model loaded successfully!.
+2021-10-16 16:47:54 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 16:47:54 INFO-Text representation have done.
+2021-10-16 16:47:54 INFO-Model has predicted successfully!.
+2021-10-16 16:47:54 INFO-Output have printed on webpage.
+2021-10-16 16:48:14 INFO-Model loaded successfully!.
+2021-10-16 16:48:14 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 16:48:14 INFO-Text representation have done.
+2021-10-16 16:48:14 INFO-Model has predicted successfully!.
+2021-10-16 16:48:14 INFO-Output have printed on webpage.
+2021-10-16 16:48:42 INFO-Model loaded successfully!.
+2021-10-16 16:48:42 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 16:48:42 INFO-Text representation have done.
+2021-10-16 16:48:42 INFO-Model has predicted successfully!.
+2021-10-16 16:48:42 INFO-Output have printed on webpage.
+2021-10-16 16:49:22 INFO-Model loaded successfully!.
+2021-10-16 16:49:22 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 16:49:22 INFO-Text representation have done.
+2021-10-16 16:49:22 INFO-Model has predicted successfully!.
+2021-10-16 16:49:22 INFO-Output have printed on webpage.
+2021-10-16 16:49:28 INFO-Model loaded successfully!.
+2021-10-16 16:49:28 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 16:49:28 INFO-Text representation have done.
+2021-10-16 16:49:28 INFO-Model has predicted successfully!.
+2021-10-16 16:49:28 INFO-Output have printed on webpage.
+2021-10-16 16:50:15 INFO-Model loaded successfully!.
+2021-10-16 16:50:15 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 16:50:15 INFO-Text representation have done.
+2021-10-16 16:50:15 INFO-Model has predicted successfully!.
+2021-10-16 16:50:16 INFO-Output have printed on webpage.
+2021-10-16 16:50:53 INFO-Model loaded successfully!.
+2021-10-16 16:50:53 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 16:50:53 INFO-Text representation have done.
+2021-10-16 16:50:53 INFO-Model has predicted successfully!.
+2021-10-16 16:50:53 INFO-Output have printed on webpage.
+2021-10-16 16:51:22 INFO-Model loaded successfully!.
+2021-10-16 16:51:22 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 16:51:22 INFO-Text representation have done.
+2021-10-16 16:51:22 INFO-Model has predicted successfully!.
+2021-10-16 16:51:22 INFO-Output have printed on webpage.
+2021-10-16 16:52:08 INFO-Model loaded successfully!.
+2021-10-16 16:52:08 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 16:52:08 INFO-Text representation have done.
+2021-10-16 16:52:08 INFO-Model has predicted successfully!.
+2021-10-16 16:52:08 INFO-Output have printed on webpage.
+2021-10-16 16:53:17 INFO-Model loaded successfully!.
+2021-10-16 16:53:18 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 16:53:18 INFO-Text representation have done.
+2021-10-16 16:53:18 INFO-Model has predicted successfully!.
+2021-10-16 16:53:18 INFO-Output have printed on webpage.
+2021-10-16 16:54:13 INFO-Model loaded successfully!.
+2021-10-16 16:54:13 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 16:54:13 INFO-Text representation have done.
+2021-10-16 16:54:13 INFO-Model has predicted successfully!.
+2021-10-16 16:54:13 INFO-Output have printed on webpage.
+2021-10-16 16:55:22 INFO-Model loaded successfully!.
+2021-10-16 16:55:22 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 16:55:22 INFO-Text representation have done.
+2021-10-16 16:55:22 INFO-Model has predicted successfully!.
+2021-10-16 16:55:22 INFO-Output have printed on webpage.
+2021-10-16 16:57:31 INFO-Model loaded successfully!.
+2021-10-16 16:57:31 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 16:57:31 INFO-Text representation have done.
+2021-10-16 16:57:31 INFO-Model has predicted successfully!.
+2021-10-16 16:57:31 INFO-Output have printed on webpage.
+2021-10-16 16:58:47 INFO-Model loaded successfully!.
+2021-10-16 16:58:47 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 16:58:47 INFO-Text representation have done.
+2021-10-16 16:58:47 INFO-Model has predicted successfully!.
+2021-10-16 16:58:47 INFO-Output have printed on webpage.
+2021-10-16 16:59:25 INFO-Model loaded successfully!.
+2021-10-16 16:59:25 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 16:59:25 INFO-Text representation have done.
+2021-10-16 16:59:25 INFO-Model has predicted successfully!.
+2021-10-16 16:59:25 INFO-Output have printed on webpage.
+2021-10-16 17:00:07 INFO-Model loaded successfully!.
+2021-10-16 17:00:07 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 17:00:07 INFO-Text representation have done.
+2021-10-16 17:00:07 INFO-Model has predicted successfully!.
+2021-10-16 17:00:07 INFO-Output have printed on webpage.
+2021-10-16 17:00:56 INFO-Model loaded successfully!.
+2021-10-16 17:00:56 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 17:00:56 INFO-Text representation have done.
+2021-10-16 17:00:56 INFO-Model has predicted successfully!.
+2021-10-16 17:00:56 INFO-Output have printed on webpage.
+2021-10-16 17:01:40 INFO-Model loaded successfully!.
+2021-10-16 17:01:40 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 17:01:40 INFO-Text representation have done.
+2021-10-16 17:01:40 INFO-Model has predicted successfully!.
+2021-10-16 17:01:40 INFO-Output have printed on webpage.
+2021-10-16 17:02:09 INFO-Model loaded successfully!.
+2021-10-16 17:02:09 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 17:02:09 INFO-Text representation have done.
+2021-10-16 17:02:09 INFO-Model has predicted successfully!.
+2021-10-16 17:02:09 INFO-Output have printed on webpage.
+2021-10-16 17:02:37 INFO-Model loaded successfully!.
+2021-10-16 17:02:37 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 17:02:37 INFO-Text representation have done.
+2021-10-16 17:02:37 INFO-Model has predicted successfully!.
+2021-10-16 17:02:37 INFO-Output have printed on webpage.
+2021-10-16 17:03:31 INFO-Model loaded successfully!.
+2021-10-16 17:03:31 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 17:03:31 INFO-Text representation have done.
+2021-10-16 17:03:31 INFO-Model has predicted successfully!.
+2021-10-16 17:03:31 INFO-Output have printed on webpage.
+2021-10-16 17:08:49 INFO-Model loaded successfully!.
+2021-10-16 17:08:49 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 17:08:49 INFO-Text representation have done.
+2021-10-16 17:08:49 INFO-Model has predicted successfully!.
+2021-10-16 17:08:49 INFO-Output have printed on webpage.
+2021-10-16 17:09:08 INFO-Model loaded successfully!.
+2021-10-16 17:09:08 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 17:09:08 INFO-Text representation have done.
+2021-10-16 17:09:08 INFO-Model has predicted successfully!.
+2021-10-16 17:09:08 INFO-Output have printed on webpage.
+2021-10-16 17:09:34 INFO-Model loaded successfully!.
+2021-10-16 17:09:34 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 17:09:34 INFO-Text representation have done.
+2021-10-16 17:09:34 INFO-Model has predicted successfully!.
+2021-10-16 17:09:35 INFO-Output have printed on webpage.
+2021-10-16 17:10:09 INFO-Model loaded successfully!.
+2021-10-16 17:10:09 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 17:10:09 INFO-Text representation have done.
+2021-10-16 17:10:09 INFO-Model has predicted successfully!.
+2021-10-16 17:10:09 INFO-Output have printed on webpage.
+2021-10-16 17:11:50 INFO-Model loaded successfully!.
+2021-10-16 17:11:50 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 17:11:50 INFO-Text representation have done.
+2021-10-16 17:11:50 INFO-Model has predicted successfully!.
+2021-10-16 17:11:50 INFO-Output have printed on webpage.
+2021-10-16 17:11:54 WARNING-Please put text in textbox.
+2021-10-16 17:12:00 WARNING-Please put text in textbox.
+2021-10-16 17:12:24 INFO-Model loaded successfully!.
+2021-10-16 17:12:24 INFO-tfidf vectorization loaded successfully!.
+2021-10-16 17:12:24 INFO-Text representation have done.
+2021-10-16 17:12:24 INFO-Model has predicted successfully!.
+2021-10-16 17:12:24 INFO-Output have printed on webpage.
+2021-10-16 17:20:14 DEBUG-Using selector: SelectSelector

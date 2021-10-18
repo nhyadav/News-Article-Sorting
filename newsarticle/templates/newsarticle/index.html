@@ -10,18 +10,31 @@
 
     <title>data science internship</title>
     <style>
-      nav {
-        background-color: DarkSalmon;
+      nav { 
+        background-color: #1bc4d0;
           }
+        body{
+          background: #e6ffff;
+        }
       footer {
         text-align: center;
         padding: 3px;
-        background-color: DarkSalmon;
+        background-color: #1bc4d0;
         color: dark;
         align: buttom;
+        
         display: block;
 
               }
+        .right{
+           margin:0% 10%;
+          }
+          .card{
+            display:flex;
+            height: 100%;
+            
+          }
+          
 </style>
   </head>
   <body>
@@ -34,13 +47,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
     </div>
   </div>
 </nav>
 <div class='container'>
-<h2 class='text-center my-5'>News Article Sorting</h2>
+<h2 class='text-center my-5'>News Articles Sorting</h2>
 <form action='predict' method='post'>
   {% csrf_token%}
   <div class="form">
@@ -49,21 +62,43 @@
     </div>
     <br>
     <br>
-    <button type="submit" class="btn btn-primary">classify</button>
-    <button type="reset" class="btn btn-primary float-right">reset</button>
+    <button type="submit" class="btn btn-primary">Classify</button>
+    <button type="reset" class="btn btn-primary right">Reset</button>
   </div>
 </form>
 </div>
-<div class='container'>
-
-<span class='align-center'>
-<label>News category is:</label>
-<h3>{{category|upper}}</h3></span>
-
-<span class='align-center'>
-<label>with probability</label>
-<h3>{{probability}}</h3></span>
+<div class='container my-5 card'>
+<div class='row row-cols-1 row-cols-md-2 g-5'>
+<div class='col-4'>
+<div class="card text-center">
+  <div class="card-header" style='background:#47d147'>
+    RESULTS:
+  </div>
+  <div class="card-body" style='background:#47d147'>
+    <h5 class="card-title">{{category|upper}}</h5>
+  </div>
 </div>
+</div>
+<div class='col-4'>
+<div class="card text-center">
+  <div class="card-header" style='background:#47d147'>
+    REPORTS:
+  </div>
+  <div class="card-body" style='background:#47d147'>
+    <strong>TIME: {{execution_time|floatformat}}s</strong>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<div class="container my-5">
+  <label><strong>Probability:</strong></label>
+  <div class='progress'>
+  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: {{probability}}%" aria-valuenow="{{probability}}" aria-valuemin="0" aria-valuemax="100">{{probability}}</div>
+</div>
+</div>
+
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -76,7 +111,7 @@
     -->
     <footer class='fixed-bottom'>
   <p>Author: Narayan hari yadav<br>
-  <a href="#">Internship at ineuron</a></p>
+  <a href="#" style="text-decoration:none; color:green;">Internship at ineuron</a></p>
 </footer>
 
   </body>
