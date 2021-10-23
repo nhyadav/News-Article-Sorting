@@ -378,3 +378,77 @@ django.template.exceptions.TemplateSyntaxError: Invalid filter: 'round'
 2021-10-16 17:12:24 INFO-Model has predicted successfully!.
 2021-10-16 17:12:24 INFO-Output have printed on webpage.
 2021-10-16 17:20:14 DEBUG-Using selector: SelectSelector
+2021-10-23 14:14:09 INFO-News Articles Sorting ready for use!
+2021-10-23 14:14:09 INFO-Paramters loaded successfully.
+2021-10-23 14:17:18 WARNING-Not Found: /favicon.ico
+2021-10-23 14:40:14 WARNING-Please put text in textbox.
+2021-10-23 14:48:10 INFO-Model loaded successfully!.
+2021-10-23 14:48:10 INFO-tfidf vectorization loaded successfully!.
+2021-10-23 14:48:10 INFO-Text representation have done.
+2021-10-23 14:48:10 INFO-Model has predicted successfully!.
+2021-10-23 14:48:10 INFO-Output have printed on webpage.
+2021-10-23 14:48:21 INFO-Model loaded successfully!.
+2021-10-23 14:48:21 INFO-tfidf vectorization loaded successfully!.
+2021-10-23 14:48:21 INFO-Text representation have done.
+2021-10-23 14:48:21 INFO-Model has predicted successfully!.
+2021-10-23 14:48:21 INFO-Output have printed on webpage.
+2021-10-23 14:50:21 INFO-Model loaded successfully!.
+2021-10-23 14:50:21 INFO-tfidf vectorization loaded successfully!.
+2021-10-23 14:50:21 INFO-Text representation have done.
+2021-10-23 14:50:21 INFO-Model has predicted successfully!.
+2021-10-23 14:50:21 INFO-Output have printed on webpage.
+2021-10-23 14:51:02 INFO-Model loaded successfully!.
+2021-10-23 14:51:02 INFO-tfidf vectorization loaded successfully!.
+2021-10-23 14:51:02 INFO-Text representation have done.
+2021-10-23 14:51:02 INFO-Model has predicted successfully!.
+2021-10-23 14:51:02 INFO-Output have printed on webpage.
+2021-10-23 14:52:15 INFO-Model loaded successfully!.
+2021-10-23 14:52:15 INFO-tfidf vectorization loaded successfully!.
+2021-10-23 14:52:15 INFO-Text representation have done.
+2021-10-23 14:52:15 INFO-Model has predicted successfully!.
+2021-10-23 14:52:15 INFO-Output have printed on webpage.
+2021-10-23 14:52:51 INFO-Model loaded successfully!.
+2021-10-23 14:52:51 INFO-tfidf vectorization loaded successfully!.
+2021-10-23 14:52:51 INFO-Text representation have done.
+2021-10-23 14:52:51 INFO-Model has predicted successfully!.
+2021-10-23 14:52:51 INFO-Output have printed on webpage.
+2021-10-23 14:53:10 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-23 14:53:10 DEBUG-Using selector: SelectSelector
+2021-10-23 14:53:12 INFO-News Articles Sorting ready for use!
+2021-10-23 14:53:12 INFO-Paramters loaded successfully.
+2021-10-23 14:53:18 INFO-Model loaded successfully!.
+2021-10-23 14:53:18 INFO-tfidf vectorization loaded successfully!.
+2021-10-23 14:53:18 INFO-Text representation have done.
+2021-10-23 14:53:18 INFO-Model has predicted successfully!.
+2021-10-23 14:53:18 INFO-Output have printed on webpage.
+2021-10-23 14:53:22 INFO-Model loaded successfully!.
+2021-10-23 14:53:22 INFO-tfidf vectorization loaded successfully!.
+2021-10-23 14:53:22 INFO-Text representation have done.
+2021-10-23 14:53:22 INFO-Model has predicted successfully!.
+2021-10-23 14:53:22 INFO-Output have printed on webpage.
+2021-10-23 14:53:35 INFO-Model loaded successfully!.
+2021-10-23 14:53:35 INFO-tfidf vectorization loaded successfully!.
+2021-10-23 14:53:35 INFO-Text representation have done.
+2021-10-23 14:53:35 INFO-Model has predicted successfully!.
+2021-10-23 14:53:35 INFO-Output have printed on webpage.
+2021-10-23 14:53:40 INFO-Model loaded successfully!.
+2021-10-23 14:53:40 INFO-tfidf vectorization loaded successfully!.
+2021-10-23 14:53:40 INFO-Text representation have done.
+2021-10-23 14:53:40 INFO-Model has predicted successfully!.
+2021-10-23 14:53:40 INFO-Output have printed on webpage.
+2021-10-23 14:54:07 INFO-Model loaded successfully!.
+2021-10-23 14:54:07 INFO-tfidf vectorization loaded successfully!.
+2021-10-23 14:54:07 INFO-Text representation have done.
+2021-10-23 14:54:07 INFO-Model has predicted successfully!.
+2021-10-23 14:54:07 INFO-Output have printed on webpage.
+2021-10-23 14:58:13 INFO-Model loaded successfully!.
+2021-10-23 14:58:13 INFO-tfidf vectorization loaded successfully!.
+2021-10-23 14:58:13 INFO-Text representation have done.
+2021-10-23 14:58:13 INFO-Model has predicted successfully!.
+2021-10-23 14:58:13 INFO-Output have printed on webpage.
+2021-10-23 14:58:17 INFO-Model loaded successfully!.
+2021-10-23 14:58:17 INFO-tfidf vectorization loaded successfully!.
+2021-10-23 14:58:17 INFO-Text representation have done.
+2021-10-23 14:58:17 INFO-Model has predicted successfully!.
+2021-10-23 14:58:17 INFO-Output have printed on webpage.
+2021-10-23 15:03:51 DEBUG-Using selector: SelectSelector

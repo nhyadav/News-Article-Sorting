@@ -47,7 +47,7 @@ def model_predict(text):
         logging.exception(ex)
 def thresold_for_news(probability, result):
     final_category = result
-    if probability >= 50:
+    if probability >= 40:
         return final_category
     else:
         final_category = 'Others'
