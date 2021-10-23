@@ -1,1 +1,1 @@
-web: gunicorn readme.wsgi --log-file -
+web: gunicorn newsarticlesorting.wsgi --log-file -
