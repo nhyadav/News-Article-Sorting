@@ -15,7 +15,7 @@ logging.basicConfig(filename="logging\\userlogging.txt",
                     )
 logging.info('News Articles Sorting ready for use!')
 # predict with model. 
-path = "E:\\DataScience_internship_with_ineuron\\newsarticalesorting\\newsarticlesorting\\params.yaml"
+path = "newsarticlesorting\\params.yaml"
 try:
     with open(path, encoding='UTF-8') as data:
         parameteras = yaml.safe_load(data)
@@ -45,6 +45,8 @@ def model_predict(text):
         return predict_cateory, probability
     except Exception as ex:
         logging.exception(ex)
+
+
 def thresold_for_news(probability, result):
     final_category = result
     if probability >= 40:

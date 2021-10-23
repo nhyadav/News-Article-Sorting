@@ -19,7 +19,7 @@ load_data:
   X_test: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\processed\X_test.pickle
   y_train: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\processed\y_train.pickle
   y_test: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\processed\y_test.pickle
-  tfidf: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\processed\tfidf.pickle
+  tfidf: newsarticlesorting\data\processed\tfidf.pickle
   train: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\train.csv
   test_true: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\test_true.csv 
 
@@ -48,7 +48,7 @@ logistic_regression:
     multi_class: multinomial
     penalty: l2
     solver: newton-cg
-  save_model: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\models\logistic_regression_model.pickle
+  save_model: newsarticlesorting\models\logistic_regression_model.pickle
 
 reports:
   parameters: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\reports\parameters.json

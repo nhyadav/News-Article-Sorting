@@ -452,3 +452,60 @@ django.template.exceptions.TemplateSyntaxError: Invalid filter: 'round'
 2021-10-23 14:58:17 INFO-Model has predicted successfully!.
 2021-10-23 14:58:17 INFO-Output have printed on webpage.
 2021-10-23 15:03:51 DEBUG-Using selector: SelectSelector
+2021-10-23 19:49:46 INFO-News Articles Sorting ready for use!
+2021-10-23 19:49:46 INFO-Paramters loaded successfully.
+2021-10-23 19:50:07 WARNING-Not Found: /favicon.ico
+2021-10-23 19:50:17 WARNING-Please put text in textbox.
+2021-10-23 19:50:37 INFO-Model loaded successfully!.
+2021-10-23 19:50:37 INFO-tfidf vectorization loaded successfully!.
+2021-10-23 19:50:37 INFO-Text representation have done.
+2021-10-23 19:50:37 INFO-Model has predicted successfully!.
+2021-10-23 19:50:37 INFO-Output have printed on webpage.
+2021-10-23 20:15:05 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\urls.py changed, reloading.
+2021-10-23 20:15:05 DEBUG-Using selector: SelectSelector
+2021-10-23 20:15:07 INFO-News Articles Sorting ready for use!
+2021-10-23 20:15:07 INFO-Paramters loaded successfully.
+2021-10-23 20:16:27 ERROR-Internal Server Error: /predict/
+Traceback (most recent call last):
+  File "C:\Users\narayan hari yadav\anaconda3\envs\newsartsort\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\narayan hari yadav\anaconda3\envs\newsartsort\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py", line 76, in predict
+    return render(request, "newsarticle/index.html",result_final)
+UnboundLocalError: local variable 'result_final' referenced before assignment
+2021-10-23 20:19:01 ERROR-Internal Server Error: /predict/
+Traceback (most recent call last):
+  File "C:\Users\narayan hari yadav\anaconda3\envs\newsartsort\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\narayan hari yadav\anaconda3\envs\newsartsort\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py", line 76, in predict
+    return render(request, "newsarticle/index.html",result_final)
+UnboundLocalError: local variable 'result_final' referenced before assignment
+2021-10-23 20:19:09 ERROR-Internal Server Error: /predict/
+Traceback (most recent call last):
+  File "C:\Users\narayan hari yadav\anaconda3\envs\newsartsort\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\narayan hari yadav\anaconda3\envs\newsartsort\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py", line 76, in predict
+    return render(request, "newsarticle/index.html",result_final)
+UnboundLocalError: local variable 'result_final' referenced before assignment
+2021-10-23 20:20:16 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\urls.py changed, reloading.
+2021-10-23 20:20:16 DEBUG-Using selector: SelectSelector
+2021-10-23 20:20:17 INFO-News Articles Sorting ready for use!
+2021-10-23 20:20:17 INFO-Paramters loaded successfully.
+2021-10-23 20:20:51 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-23 20:20:51 DEBUG-Using selector: SelectSelector
+2021-10-23 20:20:53 INFO-News Articles Sorting ready for use!
+2021-10-23 20:20:53 INFO-Paramters loaded successfully.
+2021-10-23 20:22:29 INFO-E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py changed, reloading.
+2021-10-23 20:22:29 DEBUG-Using selector: SelectSelector
+2021-10-23 20:22:30 INFO-News Articles Sorting ready for use!
+2021-10-23 20:22:30 ERROR-[Errno 2] No such file or directory: 'newsarticlesorting\\params.yaml'
+Traceback (most recent call last):
+  File "E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\newsarticle\views.py", line 20, in <module>
+    with open(path, encoding='UTF-8') as data:
+FileNotFoundError: [Errno 2] No such file or directory: 'newsarticlesorting\\params.yaml'
+2021-10-23 20:25:06 DEBUG-Using selector: SelectSelector
