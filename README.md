@@ -32,6 +32,12 @@ To create the News Article Sorting,
 we required environment for development. 
 I have used annaconda environment,
 
-bash`
+```bash
 conda create -n envname python=version
-`
+```
+The above command will create a new environment with specified 
+python version.To install requirement library download the requirements.txt file from
+current github repository and run the below command. 
+```bash
+pip install -r requirements.txt
+```
