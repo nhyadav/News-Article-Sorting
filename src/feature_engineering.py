@@ -111,6 +111,6 @@ def feature_engineering(params):
 
 
 if __name__ == "__main__":
-    path = "E:\\DataScience_internship_with_ineuron\\newsarticalesorting\\newsarticlesorting\\params.yaml"
+    path = "params.yaml"
     params = get_parameter(path)
     feature_engineering(params)

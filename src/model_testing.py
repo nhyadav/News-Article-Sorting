@@ -53,7 +53,7 @@ def model_testing(parameteras):
         json.dump(test_report, data, indent=4)
 
 if __name__ == "__main__":
-    path = "E:\\DataScience_internship_with_ineuron\\newsarticalesorting\\newsarticlesorting\\params.yaml"
+    path = "params.yaml"
     parameteras = get_parameter(path)
     model_testing(parameteras)
    

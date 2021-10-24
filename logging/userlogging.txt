@@ -533,3 +533,13 @@ FileNotFoundError: [Errno 2] No such file or directory: 'newsarticlesorting\\par
 2021-10-24 20:16:04 INFO-Model has predicted successfully!.
 2021-10-24 20:16:04 INFO-Output have printed on webpage.
 2021-10-24 20:16:13 DEBUG-Using selector: SelectSelector
+2021-10-24 22:08:41 INFO-News Articles Sorting ready for use!
+2021-10-24 22:08:41 INFO-Paramters loaded successfully.
+2021-10-24 22:08:43 INFO-Model loaded successfully!.
+2021-10-24 22:08:44 INFO-tfidf vectorization loaded successfully!.
+2021-10-24 22:09:04 WARNING-Not Found: /favicon.ico
+2021-10-24 22:09:09 WARNING-Please put text in textbox.
+2021-10-24 22:09:16 INFO-Text representation have done.
+2021-10-24 22:09:16 INFO-Model has predicted successfully!.
+2021-10-24 22:09:16 INFO-Output have printed on webpage.
+2021-10-24 22:09:28 DEBUG-Using selector: SelectSelector

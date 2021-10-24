@@ -4,24 +4,24 @@ base:
   random_state: 42
 
 plot:
-  eda_count_plot: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\plots\eda_plot_with_count.png
-  eda_freq_plot: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\plots\eda_plot_with_frequency.png
-  testdata_eda_count_plot: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\plots\testdata_eda_plot_with_count.png
-  testdata_eda_freq_plot: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\plots\testdata_eda_plot_with_frequency.png
+  eda_count_plot: plots\eda_plot_with_count.png
+  eda_freq_plot: plots\eda_plot_with_frequency.png
+  testdata_eda_count_plot: plots\testdata_eda_plot_with_count.png
+  testdata_eda_freq_plot: plots\testdata_eda_plot_with_frequency.png
 
 data_source:
-  sample_submission: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data_raw\BBC News Sample solution.csv
-  train: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data_raw\BBC News Train.csv
-  test: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data_raw\BBC News Test.csv
+  sample_submission: data_raw\BBC News Sample solution.csv
+  train: data_raw\BBC News Train.csv
+  test: data_raw\BBC News Test.csv
 
 load_data:
-  X_train: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\processed\X_train.pickle
-  X_test: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\processed\X_test.pickle
-  y_train: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\processed\y_train.pickle
-  y_test: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\processed\y_test.pickle
+  X_train: data\processed\X_train.pickle
+  X_test: data\processed\X_test.pickle
+  y_train: data\processed\y_train.pickle
+  y_test: data\processed\y_test.pickle
   tfidf: data\processed\tfidf.pickle
-  train: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\train.csv
-  test_true: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\test_true.csv 
+  train: data\train.csv
+  test_true: data\test_true.csv 
 
 
 train_category:
@@ -51,9 +51,9 @@ logistic_regression:
   save_model: models\logistic_regression_model.pickle
 
 reports:
-  parameters: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\reports\parameters.json
-  scores: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\reports\scores.json
-  test_report: E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\reports\test_report.json
+  parameters: reports\parameters.json
+  scores: reports\scores.json
+  test_report: reports\test_report.json
 
 test_case_true_class: ['politics','entertainment','business','tech','sport','weather','health']
 test_case:

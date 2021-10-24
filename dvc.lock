@@ -29,8 +29,8 @@ stages:
       md5: 97e496bd04df9a513f8d22793b7fc0f1
       size: 3351206
     - path: src\eda.py
-      md5: 20ce0e369f055eb0cc1e119e700afa98
-      size: 3387
+      md5: dc5c3023cec3ee12d39b956207f5c4a8
+      size: 3305
     outs:
     - path: data\processed\X_test.pickle
       md5: 620ecf1e9c6089bf60256f17252bfc09
@@ -39,7 +39,7 @@ stages:
       md5: 9c759f66efd1bc130240707c3ccae3d9
       size: 7628960
     - path: data\processed\tfidf.pickle
-      md5: 96f75ca0b74ddfb2471e790304a9228f
+      md5: cabd324d4061f78a67a8eb00394ed144
       size: 5769975
     - path: data\processed\y_test.pickle
       md5: 23a5c7c74818d2d684ccbe2e85232cab
@@ -66,8 +66,8 @@ stages:
       md5: 371e51ccb5965e3d90d6c1f6ca1c8640
       size: 29348
     - path: src\eda.py
-      md5: 20ce0e369f055eb0cc1e119e700afa98
-      size: 3387
+      md5: dc5c3023cec3ee12d39b956207f5c4a8
+      size: 3305
     params:
       params.yaml:
         logistic_regression.params.C: 0.9
@@ -89,14 +89,14 @@ stages:
     cmd: python src/model_testing.py
     deps:
     - path: data\processed\tfidf.pickle
-      md5: 96f75ca0b74ddfb2471e790304a9228f
+      md5: cabd324d4061f78a67a8eb00394ed144
       size: 5769975
     - path: models\logistic_regression_model.pickle
       md5: 206034ffb276dfb06b177ae199ea5eab
       size: 32932
     - path: src\eda.py
-      md5: 20ce0e369f055eb0cc1e119e700afa98
-      size: 3387
+      md5: dc5c3023cec3ee12d39b956207f5c4a8
+      size: 3305
     outs:
     - path: reports\test_report.json
       md5: 825340b60cb2f234af73bab0bfccc838

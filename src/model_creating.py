@@ -28,7 +28,7 @@ def model_creation(X, y, p):
     return lr_model
 
 if __name__ == "__main__":
-    path = "E:\\DataScience_internship_with_ineuron\\newsarticalesorting\\newsarticlesorting\\params.yaml"
+    path = "params.yaml"
     parameteras = get_parameter(path)
     params = parameteras['logistic_regression']['params']
     X_train_path = parameteras['load_data']['X_train']

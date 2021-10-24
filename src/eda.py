@@ -96,5 +96,5 @@ def perform_eda(path):
     print(test_data.head())
 
 if __name__ == "__main__":
-    path = "E:\\DataScience_internship_with_ineuron\\newsarticalesorting\\newsarticlesorting\\params.yaml"
+    path = "params.yaml"
     perform_eda(path)

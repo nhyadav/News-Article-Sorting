@@ -2,36 +2,36 @@ stages:
   eda:
     cmd: python src/eda.py
     deps:
-    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data_raw\BBC News Sample Solution.csv
-    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data_raw\BBC News Train.csv
+    - data_raw\BBC News Sample Solution.csv
+    - data_raw\BBC News Train.csv
     outs:
-    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\plots\eda_plot_with_count.png
-    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\plots\eda_plot_with_frequency.png
-    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\plots\testdata_eda_plot_with_count.png
-    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\plots\testdata_eda_plot_with_frequency.png
+    - plots\eda_plot_with_count.png
+    - plots\eda_plot_with_frequency.png
+    - plots\testdata_eda_plot_with_count.png
+    - plots\testdata_eda_plot_with_frequency.png
 
   feature_engineering:
     cmd: python src/feature_engineering.py
     deps:
-    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\src\eda.py
-    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data_raw\BBC News Train.csv
+    - src\eda.py
+    - data_raw\BBC News Train.csv
    
     outs:
-    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\processed\X_test.pickle
-    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\processed\y_test.pickle
-    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\processed\X_train.pickle
-    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\processed\y_train.pickle
-    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\processed\tfidf.pickle
-    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\train.csv
+    - data\processed\X_test.pickle
+    - data\processed\y_test.pickle
+    - data\processed\X_train.pickle
+    - data\processed\y_train.pickle
+    - data\processed\tfidf.pickle
+    - data\train.csv
 
   model_creating:
     cmd: python src/model_creating.py
     deps:
-    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\processed\X_test.pickle
-    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\processed\y_test.pickle
-    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\processed\X_train.pickle
-    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\processed\y_train.pickle
-    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\src\eda.py
+    - data\processed\X_test.pickle
+    - data\processed\y_test.pickle
+    - data\processed\X_train.pickle
+    - data\processed\y_train.pickle
+    - src\eda.py
   
     params:
     - logistic_regression.params.C
@@ -39,20 +39,21 @@ stages:
     - logistic_regression.params.multi_class
     - logistic_regression.params.penalty
     - logistic_regression.params.solver
+    
     metrics:
     - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\reports\parameters.json:
         cache: false
     - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\reports\scores.json:
         cache: false
     outs:
-    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\models\logistic_regression_model.pickle
+    - models\logistic_regression_model.pickle
 
   model_testing:
     cmd: python src/model_testing.py
     deps:
-    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\src\eda.py
-    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\data\processed\tfidf.pickle
-    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\models\logistic_regression_model.pickle 
+    - src\eda.py
+    - data\processed\tfidf.pickle
+    - models\logistic_regression_model.pickle 
     
     outs:
-    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\reports\test_report.json
+    - reports\test_report.json
