@@ -39,5 +39,17 @@ The above command will create a new environment with specified
 python version.To install requirement library download the requirements.txt file from
 current github repository and run the below command. 
 ```bash
+# install all required library in once 
 pip install -r requirements.txt
 ```
+In this project, I have used Django python framework. To work with django first we need to create 
+project in django then create application by below command.
+```bash
+django-admin startproject project_name
+# create app 
+python manage.py startapp app_name
+# To run application 
+python manage.py runserver 
+```
+## Thank You
+- [App link](https://nasorting.herokuapp.com)
