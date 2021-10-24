@@ -28,4 +28,10 @@ This web application is created for News Article sorting, Nowadays there are man
 
 
 ## Installation
-To create the News Article Sorting, we required environment for development. i have used annaconda environment,
+To create the News Article Sorting, 
+we required environment for development. 
+I have used annaconda environment,
+
+bash`
+conda create -n envname python=version
+`
