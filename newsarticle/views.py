@@ -15,25 +15,29 @@ logging.basicConfig(filename="logging\\userlogging.txt",
                     )
 logging.info('News Articles Sorting ready for use!')
 # predict with model. 
-path = "newsarticlesorting\\params.yaml"
+path = "params.yaml"
+
 try:
     with open(path, encoding='UTF-8') as data:
         parameteras = yaml.safe_load(data)
         logging.info("Paramters loaded successfully.")
+    model_path = parameteras['logistic_regression']['save_model']
+    tfidf_path = parameteras['load_data']['tfidf']
+    train_code = parameteras['train_category']
+    with open(model_path, 'rb') as data:
+            model = pickle.load(data)
+            logging.info("Model loaded successfully!.")
+        
+    with open(tfidf_path, 'rb') as data:
+        tfidf = pickle.load(data)
+        logging.info("tfidf vectorization loaded successfully!.")
+        
 except Exception as ex:
     logging.exception(ex)
 
 def model_predict(text):
     try:
-        model_path = parameteras['logistic_regression']['save_model']
-        tfidf_path = parameteras['load_data']['tfidf']
-        train_code = parameteras['train_category']
-        with open(model_path, 'rb') as data:
-            model = pickle.load(data)
-            logging.info("Model loaded successfully!.")
-        with open(tfidf_path, 'rb') as data:
-            tfidf = pickle.load(data)
-            logging.info("tfidf vectorization loaded successfully!.")
+        
         x_test = tfidf.transform([text])
         logging.info("Text representation have done.")
         predict = model.predict(x_test)
@@ -75,7 +79,7 @@ def predict(request):
                 logging.warning('Please put text in textbox.')
     except Exception as ex:
         logging.exception(ex)
-    return render(request, "newsarticle/index.html",result_final)
+    return render(request, "newsarticle/index.html", result_final)
 
 
 
