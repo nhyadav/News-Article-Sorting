@@ -74,6 +74,9 @@ def predict(request):
             else:
                 result_final = {'category': "Please! put some text in textbox.", 'probability':0}
                 logging.warning('Please put text in textbox.')
+        else:
+            result_final = {'category': "Something wrong!", 'probability':0}
+            logging.error("post method in after classify button not working.")
     except Exception as ex:
         logging.exception(ex)
     return render(request, "newsarticle/index.html",result_final)
