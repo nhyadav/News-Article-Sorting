@@ -28,4 +28,28 @@ This web application is created for News Article sorting, Nowadays there are man
 
 
 ## Installation
-To create the News Article Sorting, we required environment for development. i have used annaconda environment,
+To create the News Article Sorting, 
+we required environment for development. 
+I have used annaconda environment,
+
+```bash
+conda create -n envname python=version
+```
+The above command will create a new environment with specified 
+python version.To install requirement library download the requirements.txt file from
+current github repository and run the below command. 
+```bash
+# install all required library in once 
+pip install -r requirements.txt
+```
+In this project, I have used Django python framework. To work with django first we need to create 
+project in django then create application by below command.
+```bash
+django-admin startproject project_name
+# create app 
+python manage.py startapp app_name
+# To run application 
+python manage.py runserver 
+```
+## Thank You
+- [App link](https://nasorting.herokuapp.com)

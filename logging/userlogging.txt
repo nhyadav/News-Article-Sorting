@@ -509,3 +509,15 @@ Traceback (most recent call last):
     with open(path, encoding='UTF-8') as data:
 FileNotFoundError: [Errno 2] No such file or directory: 'newsarticlesorting\\params.yaml'
 2021-10-23 20:25:06 DEBUG-Using selector: SelectSelector
+2021-10-24 20:10:34 INFO-News Articles Sorting ready for use!
+2021-10-24 20:10:34 INFO-Paramters loaded successfully.
+2021-10-24 20:10:36 INFO-Model loaded successfully!.
+2021-10-24 20:10:37 INFO-tfidf vectorization loaded successfully!.
+2021-10-24 20:10:46 INFO-Text representation have done.
+2021-10-24 20:10:46 INFO-Model has predicted successfully!.
+2021-10-24 20:10:46 INFO-Output have printed on webpage.
+2021-10-24 20:10:49 WARNING-Please put text in textbox.
+2021-10-24 20:10:54 INFO-Text representation have done.
+2021-10-24 20:10:54 INFO-Model has predicted successfully!.
+2021-10-24 20:10:54 INFO-Output have printed on webpage.
+2021-10-24 20:10:59 DEBUG-Using selector: SelectSelector
