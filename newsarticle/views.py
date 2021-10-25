@@ -23,18 +23,17 @@ try:
     model_path = parameteras['logistic_regression']['save_model']
     tfidf_path = parameteras['load_data']['tfidf']
     train_code = parameteras['train_category']
-    with open(model_path, 'rb') as data:
-        model = pickle.load(data)
-        logging.info("Model loaded successfully!.")
-    with open(tfidf_path, 'rb') as data:
-        tfidf = pickle.load(data)
-        logging.info("tfidf vectorization loaded successfully!.")
+    
+    model = pickle.load(open(model_path, 'rb'))
+    logging.info("Model loaded successfully!.")
+
+    tfidf = pickle.load(open(tfidf_path, 'rb'))
+    logging.info("tfidf vectorization loaded successfully!.")
 except Exception as ex:
     logging.exception(ex)
 
 def model_predict(text):
     try:
-        
         x_test = tfidf.transform([text])
         logging.info("Text representation have done.")
         predict = model.predict(x_test)
@@ -79,7 +78,7 @@ def predict(request):
             logging.error("post method in after classify button not working.")
     except Exception as ex:
         logging.exception(ex)
-    return render(request, "newsarticle/index.html",result_final)
+    return render(request, "newsarticle/index.html", result_final)
 
 
 

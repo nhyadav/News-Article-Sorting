@@ -4,24 +4,24 @@ base:
   random_state: 42
 
 plot:
-  eda_count_plot: plots\eda_plot_with_count.png
-  eda_freq_plot: plots\eda_plot_with_frequency.png
-  testdata_eda_count_plot: plots\testdata_eda_plot_with_count.png
-  testdata_eda_freq_plot: plots\testdata_eda_plot_with_frequency.png
+  eda_count_plot: plots/eda_plot_with_count.png
+  eda_freq_plot: plots/eda_plot_with_frequency.png
+  testdata_eda_count_plot: plots/testdata_eda_plot_with_count.png
+  testdata_eda_freq_plot: plots/testdata_eda_plot_with_frequency.png
 
 data_source:
-  sample_submission: data_raw\BBC News Sample solution.csv
-  train: data_raw\BBC News Train.csv
-  test: data_raw\BBC News Test.csv
+  sample_submission: data_raw/BBC News Sample solution.csv
+  train: data_raw/BBC News Train.csv
+  test: data_raw/BBC News Test.csv
 
 load_data:
-  X_train: data\processed\X_train.pkl
-  X_test: data\processed\X_test.pkl
-  y_train: data\processed\y_train.pkl
-  y_test: data\processed\y_test.pkl
-  tfidf: data\processed\tfidf.pkl
-  train: data\train.csv
-  test_true: data\test_true.csv 
+  X_train: data/processed/X_train.pkl
+  X_test: data/processed/X_test.pkl
+  y_train: data/processed/y_train.pkl
+  y_test: data/processed/y_test.pkl
+  tfidf: data/processed/tfidf.pkl
+  train: data/train.csv
+  test_true: data/test_true.csv 
 
 
 train_category:
@@ -48,12 +48,12 @@ logistic_regression:
     multi_class: multinomial
     penalty: l2
     solver: newton-cg
-  save_model: models\logistic_regression_model.pkl
+  save_model: models/logistic_regression_model.pkl
 
 reports:
-  parameters: reports\parameters.json
-  scores: reports\scores.json
-  test_report: reports\test_report.json
+  parameters: reports/parameters.json
+  scores: reports/scores.json
+  test_report: reports/test_report.json
 
 test_case_true_class: ['politics','entertainment','business','tech','sport','weather','health']
 test_case:
