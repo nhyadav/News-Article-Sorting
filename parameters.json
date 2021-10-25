@@ -1,7 +1,0 @@
-{
-    "C": 0.9,
-    "class_weight": "balanced",
-    "multi_class": "multinomial",
-    "penalty": "l2",
-    "solver": "newton-cg"
-}

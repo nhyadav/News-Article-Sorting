@@ -17,20 +17,20 @@ stages:
     - data_raw\BBC News Train.csv
    
     outs:
-    - data\processed\X_test.pickle
-    - data\processed\y_test.pickle
-    - data\processed\X_train.pickle
-    - data\processed\y_train.pickle
-    - data\processed\tfidf.pickle
+    - data\processed\X_test.pkl
+    - data\processed\y_test.pkl
+    - data\processed\X_train.pkl
+    - data\processed\y_train.pkl
+    - data\processed\tfidf.pkl
     - data\train.csv
 
   model_creating:
     cmd: python src/model_creating.py
     deps:
-    - data\processed\X_test.pickle
-    - data\processed\y_test.pickle
-    - data\processed\X_train.pickle
-    - data\processed\y_train.pickle
+    - data\processed\X_test.pkl
+    - data\processed\y_test.pkl
+    - data\processed\X_train.pkl
+    - data\processed\y_train.pkl
     - src\eda.py
   
     params:
@@ -41,19 +41,19 @@ stages:
     - logistic_regression.params.solver
     
     metrics:
-    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\reports\parameters.json:
+    - reports\parameters.json:
         cache: false
-    - E:\DataScience_internship_with_ineuron\newsarticalesorting\newsarticlesorting\reports\scores.json:
+    - reports\scores.json:
         cache: false
     outs:
-    - models\logistic_regression_model.pickle
+    - models\logistic_regression_model.pkl
 
   model_testing:
     cmd: python src/model_testing.py
     deps:
     - src\eda.py
-    - data\processed\tfidf.pickle
-    - models\logistic_regression_model.pickle 
+    - data\processed\tfidf.pkl
+    - models\logistic_regression_model.pkl
     
     outs:
     - reports\test_report.json

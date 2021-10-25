@@ -3,3 +3,8 @@
 /X_train.pickle
 /y_train.pickle
 /tfidf.pickle
+/X_test.pkl
+/y_test.pkl
+/X_train.pkl
+/y_train.pkl
+/tfidf.pkl

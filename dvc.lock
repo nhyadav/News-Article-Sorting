@@ -32,19 +32,19 @@ stages:
       md5: dc5c3023cec3ee12d39b956207f5c4a8
       size: 3305
     outs:
-    - path: data\processed\X_test.pickle
+    - path: data\processed\X_test.pkl
       md5: 620ecf1e9c6089bf60256f17252bfc09
       size: 1907360
-    - path: data\processed\X_train.pickle
+    - path: data\processed\X_train.pkl
       md5: 9c759f66efd1bc130240707c3ccae3d9
       size: 7628960
-    - path: data\processed\tfidf.pickle
-      md5: cabd324d4061f78a67a8eb00394ed144
+    - path: data\processed\tfidf.pkl
+      md5: 2a24893b66b447e1c22a48f8bb224fbe
       size: 5769975
-    - path: data\processed\y_test.pickle
+    - path: data\processed\y_test.pkl
       md5: 23a5c7c74818d2d684ccbe2e85232cab
       size: 7892
-    - path: data\processed\y_train.pickle
+    - path: data\processed\y_train.pkl
       md5: 371e51ccb5965e3d90d6c1f6ca1c8640
       size: 29348
     - path: data\train.csv
@@ -53,16 +53,16 @@ stages:
   model_creating:
     cmd: python src/model_creating.py
     deps:
-    - path: data\processed\X_test.pickle
+    - path: data\processed\X_test.pkl
       md5: 620ecf1e9c6089bf60256f17252bfc09
       size: 1907360
-    - path: data\processed\X_train.pickle
+    - path: data\processed\X_train.pkl
       md5: 9c759f66efd1bc130240707c3ccae3d9
       size: 7628960
-    - path: data\processed\y_test.pickle
+    - path: data\processed\y_test.pkl
       md5: 23a5c7c74818d2d684ccbe2e85232cab
       size: 7892
-    - path: data\processed\y_train.pickle
+    - path: data\processed\y_train.pkl
       md5: 371e51ccb5965e3d90d6c1f6ca1c8640
       size: 29348
     - path: src\eda.py
@@ -76,7 +76,7 @@ stages:
         logistic_regression.params.penalty: l2
         logistic_regression.params.solver: newton-cg
     outs:
-    - path: models\logistic_regression_model.pickle
+    - path: models\logistic_regression_model.pkl
       md5: 206034ffb276dfb06b177ae199ea5eab
       size: 32932
     - path: reports\parameters.json
@@ -88,10 +88,10 @@ stages:
   model_testing:
     cmd: python src/model_testing.py
     deps:
-    - path: data\processed\tfidf.pickle
-      md5: cabd324d4061f78a67a8eb00394ed144
+    - path: data\processed\tfidf.pkl
+      md5: 2a24893b66b447e1c22a48f8bb224fbe
       size: 5769975
-    - path: models\logistic_regression_model.pickle
+    - path: models\logistic_regression_model.pkl
       md5: 206034ffb276dfb06b177ae199ea5eab
       size: 32932
     - path: src\eda.py
