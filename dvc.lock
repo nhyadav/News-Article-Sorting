@@ -32,39 +32,39 @@ stages:
       md5: dc5c3023cec3ee12d39b956207f5c4a8
       size: 3305
     outs:
-    - path: data\processed\X_test.pkl
-      md5: 620ecf1e9c6089bf60256f17252bfc09
-      size: 1907360
-    - path: data\processed\X_train.pkl
-      md5: 9c759f66efd1bc130240707c3ccae3d9
-      size: 7628960
-    - path: data\processed\tfidf.pkl
-      md5: 2a24893b66b447e1c22a48f8bb224fbe
-      size: 5769975
-    - path: data\processed\y_test.pkl
-      md5: 23a5c7c74818d2d684ccbe2e85232cab
-      size: 7892
-    - path: data\processed\y_train.pkl
-      md5: 371e51ccb5965e3d90d6c1f6ca1c8640
-      size: 29348
+    - path: data\processed\X_test.joblib
+      md5: 9b6230e09abe59fb045c2d668a46605d
+      size: 1907419
+    - path: data\processed\X_train.joblib
+      md5: 6191b79dc2a4962cadbd21ff7b57e695
+      size: 7629019
+    - path: data\processed\tfidf.joblib
+      md5: 1b6089990a3de30451b79c3118af308c
+      size: 5769999
+    - path: data\processed\y_test.joblib
+      md5: c3ec89ea77013c1daea7c5bd2052cab1
+      size: 10358
+    - path: data\processed\y_train.joblib
+      md5: 9f50dfec945d9a85c5f7014a3c2b2c38
+      size: 38966
     - path: data\train.csv
       md5: 9a458e4aa462212018f3ac4542a24339
       size: 3360539
   model_creating:
     cmd: python src/model_creating.py
     deps:
-    - path: data\processed\X_test.pkl
-      md5: 620ecf1e9c6089bf60256f17252bfc09
-      size: 1907360
-    - path: data\processed\X_train.pkl
-      md5: 9c759f66efd1bc130240707c3ccae3d9
-      size: 7628960
-    - path: data\processed\y_test.pkl
-      md5: 23a5c7c74818d2d684ccbe2e85232cab
-      size: 7892
-    - path: data\processed\y_train.pkl
-      md5: 371e51ccb5965e3d90d6c1f6ca1c8640
-      size: 29348
+    - path: data\processed\X_test.joblib
+      md5: 9b6230e09abe59fb045c2d668a46605d
+      size: 1907419
+    - path: data\processed\X_train.joblib
+      md5: 6191b79dc2a4962cadbd21ff7b57e695
+      size: 7629019
+    - path: data\processed\y_test.joblib
+      md5: c3ec89ea77013c1daea7c5bd2052cab1
+      size: 10358
+    - path: data\processed\y_train.joblib
+      md5: 9f50dfec945d9a85c5f7014a3c2b2c38
+      size: 38966
     - path: src\eda.py
       md5: dc5c3023cec3ee12d39b956207f5c4a8
       size: 3305
@@ -76,9 +76,9 @@ stages:
         logistic_regression.params.penalty: l2
         logistic_regression.params.solver: newton-cg
     outs:
-    - path: models\logistic_regression_model.pkl
-      md5: 206034ffb276dfb06b177ae199ea5eab
-      size: 32932
+    - path: models\logistic_regression_model.joblib
+      md5: 24a6269b558827a067d8a85641479f95
+      size: 32979
     - path: reports\parameters.json
       md5: b14f0f68f2436c5aa82c1921eb04e2c3
       size: 136
@@ -88,12 +88,12 @@ stages:
   model_testing:
     cmd: python src/model_testing.py
     deps:
-    - path: data\processed\tfidf.pkl
-      md5: 2a24893b66b447e1c22a48f8bb224fbe
-      size: 5769975
-    - path: models\logistic_regression_model.pkl
-      md5: 206034ffb276dfb06b177ae199ea5eab
-      size: 32932
+    - path: data\processed\tfidf.joblib
+      md5: 1b6089990a3de30451b79c3118af308c
+      size: 5769999
+    - path: models\logistic_regression_model.joblib
+      md5: 24a6269b558827a067d8a85641479f95
+      size: 32979
     - path: src\eda.py
       md5: dc5c3023cec3ee12d39b956207f5c4a8
       size: 3305

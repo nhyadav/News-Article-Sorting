@@ -590,3 +590,13 @@ FileNotFoundError: [Errno 2] No such file or directory: 'newsarticlesorting\\par
 2021-10-25 09:16:25 INFO-Output have printed on webpage.
 2021-10-25 09:16:29 WARNING-Please put text in textbox.
 2021-10-25 09:16:35 DEBUG-Using selector: SelectSelector
+2021-10-25 09:52:33 INFO-News Articles Sorting ready for use!
+2021-10-25 09:52:33 INFO-Paramters loaded successfully.
+2021-10-25 09:52:34 INFO-Model loaded successfully!.
+2021-10-25 09:52:34 INFO-tfidf vectorization loaded successfully!.
+2021-10-25 09:52:45 WARNING-Please put text in textbox.
+2021-10-25 09:52:47 WARNING-Please put text in textbox.
+2021-10-25 09:52:53 INFO-Text representation have done.
+2021-10-25 09:52:53 INFO-Model has predicted successfully!.
+2021-10-25 09:52:53 INFO-Output have printed on webpage.
+2021-10-25 09:54:43 DEBUG-Using selector: SelectSelector

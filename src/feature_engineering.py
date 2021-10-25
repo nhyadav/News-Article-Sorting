@@ -7,7 +7,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import pickle
+import joblib
 import warnings
 warnings.filterwarnings("ignore")
 import re
@@ -37,10 +37,8 @@ def categorised_target(data, path, train_ct):
 def text_representation(t, x, y, px, py):
     X_train = t.fit_transform(x).toarray()
     X_test = t.transform(y).toarray()
-    with open(px,'wb') as output:
-        pickle.dump(X_train, output)
-    with open(py,'wb') as output:
-        pickle.dump(X_test, output)
+    joblib.dump(X_train, px)
+    joblib.dump(X_test, py)
     
 
 
@@ -86,8 +84,7 @@ def feature_engineering(params):
     # ######################Tokenization##################
     # train_data_container = tokenization_normalization(train_data)
     train_data_container = tfidf.fit_transform(train_data.Text).toarray()
-    with open(tfidf_path, 'wb') as output:
-        pickle.dump(tfidf, output)
+    joblib.dump(tfidf, tfidf_path)
     #########################split data#################
     random_state = params['base']['random_state']
     y_trn = train_data.replace({'Category': train_cat})
@@ -96,15 +93,15 @@ def feature_engineering(params):
                                                     test_size=0.20,
                                                     random_state=random_state)
     ####################Text representation#############
-    with open(save_tfidf_train_path,'wb') as output:
-        pickle.dump(X_train, output)
-    with open(save_tfidf_test_path,'wb') as output:
-        pickle.dump(X_test, output)
+    
+    joblib.dump(X_train, save_tfidf_train_path)
+    
+    joblib.dump(X_test, save_tfidf_test_path)
     ################y_train, y_test#####################
-    with open(save_tfidf_ytrain_path,'wb') as output:
-        pickle.dump(y_train, output)
-    with open(save_tfidf_ytest_path,'wb') as output:
-        pickle.dump(y_test, output)
+    
+    joblib.dump(y_train, save_tfidf_ytrain_path)
+
+    joblib.dump(y_test, save_tfidf_ytest_path)
     
 
 

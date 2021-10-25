@@ -17,20 +17,20 @@ stages:
     - data_raw\BBC News Train.csv
    
     outs:
-    - data\processed\X_test.pkl
-    - data\processed\y_test.pkl
-    - data\processed\X_train.pkl
-    - data\processed\y_train.pkl
-    - data\processed\tfidf.pkl
+    - data\processed\X_test.joblib
+    - data\processed\y_test.joblib
+    - data\processed\X_train.joblib
+    - data\processed\y_train.joblib
+    - data\processed\tfidf.joblib
     - data\train.csv
 
   model_creating:
     cmd: python src/model_creating.py
     deps:
-    - data\processed\X_test.pkl
-    - data\processed\y_test.pkl
-    - data\processed\X_train.pkl
-    - data\processed\y_train.pkl
+    - data\processed\X_test.joblib
+    - data\processed\y_test.joblib
+    - data\processed\X_train.joblib
+    - data\processed\y_train.joblib
     - src\eda.py
   
     params:
@@ -46,14 +46,14 @@ stages:
     - reports\scores.json:
         cache: false
     outs:
-    - models\logistic_regression_model.pkl
+    - models\logistic_regression_model.joblib
 
   model_testing:
     cmd: python src/model_testing.py
     deps:
     - src\eda.py
-    - data\processed\tfidf.pkl
-    - models\logistic_regression_model.pkl
+    - data\processed\tfidf.joblib
+    - models\logistic_regression_model.joblib
     
     outs:
     - reports\test_report.json

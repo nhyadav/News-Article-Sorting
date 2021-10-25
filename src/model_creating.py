@@ -6,7 +6,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import pickle
+import joblib
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report,accuracy_score,confusion_matrix
 from eda import get_parameter
@@ -35,14 +35,14 @@ if __name__ == "__main__":
     X_test_path = parameteras['load_data']['X_test']
     y_train_path = parameteras['load_data']['y_train']
     y_test_path = parameteras['load_data']['y_test']
-    with open(y_train_path, 'rb') as data:
-        y_train = pickle.load(data)
-    with open(X_train_path, 'rb') as data:
-        X_train = pickle.load(data)
-    with open(X_test_path, 'rb') as data:
-        X_test = pickle.load(data)
-    with open(y_test_path, 'rb') as data:
-        y_test = pickle.load(data)
+   
+    y_train = joblib.load(y_train_path)
+    
+    X_train = joblib.load(X_train_path)
+   
+    X_test = joblib.load(X_test_path)
+    
+    y_test = joblib.load(y_test_path)
     #########################model creation###############
     model = model_creation(X_train, y_train, params)
     m_params = parameteras['reports']['parameters']
@@ -50,8 +50,7 @@ if __name__ == "__main__":
     
     #######################save the model#################
     save_model_path = parameteras['logistic_regression']['save_model']
-    with open(save_model_path, 'wb') as data:
-        pickle.dump(model, data)
+    joblib.dump(model, save_model_path)
     ######################################################
     test_predict_data = model.predict(X_test)
     x_pred = model.predict(X_train)

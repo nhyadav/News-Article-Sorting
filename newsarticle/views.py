@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import request
 import yaml
-import pickle
+import joblib
 import logging
 import time
 # Create your views here.
@@ -24,10 +24,10 @@ try:
     tfidf_path = parameteras['load_data']['tfidf']
     train_code = parameteras['train_category']
     
-    model = pickle.load(open(model_path, 'rb'))
+    model = joblib.load(model_path)
     logging.info("Model loaded successfully!.")
 
-    tfidf = pickle.load(open(tfidf_path, 'rb'))
+    tfidf = joblib.load(tfidf_path)
     logging.info("tfidf vectorization loaded successfully!.")
 except Exception as ex:
     logging.exception(ex)

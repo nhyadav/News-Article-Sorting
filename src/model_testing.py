@@ -1,4 +1,4 @@
-import pickle
+import joblib
 import re
 import pandas as pd
 import json
@@ -21,13 +21,11 @@ def model_testing(parameteras):
     model_path = parameteras['logistic_regression']['save_model']
     test_report_path = parameteras['reports']['test_report']
     ####################load model##################################
-    with open(model_path, 'rb') as data:
-        model = pickle.load(data)
+    model = joblib.load(model_path)
     train_cat = parameteras['train_category']
     tfidf_path = parameteras['load_data']['tfidf']
     ###################load tfidf###################################
-    with open(tfidf_path, 'rb') as data:
-        tfidf = pickle.load(data)
+    tfidf = joblib.load(tfidf_path)
     ##################predict news text###################################
     #####################load the testcase##########################
     

@@ -15,11 +15,11 @@ data_source:
   test: data_raw/BBC News Test.csv
 
 load_data:
-  X_train: data/processed/X_train.pkl
-  X_test: data/processed/X_test.pkl
-  y_train: data/processed/y_train.pkl
-  y_test: data/processed/y_test.pkl
-  tfidf: data/processed/tfidf.pkl
+  X_train: data/processed/X_train.joblib
+  X_test: data/processed/X_test.joblib
+  y_train: data/processed/y_train.joblib
+  y_test: data/processed/y_test.joblib
+  tfidf: data/processed/tfidf.joblib
   train: data/train.csv
   test_true: data/test_true.csv 
 
@@ -48,7 +48,7 @@ logistic_regression:
     multi_class: multinomial
     penalty: l2
     solver: newton-cg
-  save_model: models/logistic_regression_model.pkl
+  save_model: models/logistic_regression_model.joblib
 
 reports:
   parameters: reports/parameters.json
