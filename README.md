@@ -4,6 +4,7 @@
 This is a NLP based ML web application which is used to classify the News Articles. <br>
 I have used Logistic Regression Classification model.
 
+
 ## File structure 
 
     .
@@ -23,8 +24,12 @@ I have used Logistic Regression Classification model.
     ├── requirements.txt
     └── README.md
 
+
+
 ## Objectives
 This web application is created for News Article sorting, Nowadays there are many sources to generate news which are in huge amount of data, so this app will help the user to sort the news according to users choice.
+
+
 
 ## Life Cycle of Machine Learning Project
 Life Cycle of implementing machine learning application.
@@ -35,12 +40,18 @@ Life Cycle of implementing machine learning application.
 - Evaluate Model
 - Deploy the model
 
+
+
 ## Dataset
 The dataset that is used in this project has taken from the Kaggle. link is below.
 - [datset](https://www.kaggle.com/c/learn-ai-bbc/data)
 
+
+
 ## Homepage
 ![homepage](plots/homepage/homepage.png)
+
+
 
 ## :hammer_and_wrench: Requirements
 * windows (Operating System)
@@ -53,9 +64,11 @@ The dataset that is used in this project has taken from the Kaggle. link is belo
 * VS code (IDE)
 
 
+
 ## Deployment
 This web app News articles Sorting is deploy on heroku.
 - [App link](https://nasorting.herokuapp.com)
+
 
 
 ## :desktop_computer: Installation and Setup
@@ -82,6 +95,8 @@ python manage.py startapp app_name
 # To run application 
 python manage.py runserver 
 ```
+
+
 
 ## Contibuter
 - Narayan Hari Yadav
