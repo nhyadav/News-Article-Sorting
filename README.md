@@ -40,7 +40,7 @@ The dataset that is used in this project has taken from Kaggle. link is below.
 - [datset](https://www.kaggle.com/c/learn-ai-bbc/data)
 
 ## Homepage
-! [homepage](plots/homepage/homepage.png)
+![homepage](plots/homepage/homepage.png)
 
 ## :hammer_and_wrench: Requirement
 * windows (Operating System)
@@ -58,7 +58,7 @@ This web app News articles Sorting is deploy on heroku.
 - [App link](https://nasorting.herokuapp.com)
 
 
-## :desktop: Installation and Setup
+## :desktop_computer: Installation and Setup
 To create the News Article Sorting, 
 we required environment for development. 
 I have used annaconda environment,
