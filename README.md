@@ -26,7 +26,7 @@ I have used Logistic Regression Classification model.
 ## Objectives
 This web application is created for News Article sorting, Nowadays there are many sources to generate news which are in huge amount of data, so this app will help the user to sort the news according to users choice.
 
-## LifeCycle of MAchine Learning Project
+## LifeCycle of Machine Learning Project
 Raodmap of implementing machine learning application.
 - Gathering the Data
 - Data Preparation
