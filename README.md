@@ -1,4 +1,4 @@
-# News Article Sorting
+# News Articles Sorting
 
 ## Desscription
 This is a NLP based ML web application which is used to classify the News Articles. <br>
