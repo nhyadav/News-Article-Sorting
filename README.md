@@ -1,6 +1,6 @@
 # News Articles Sorting
 
-## Desscription
+## Description
 This is a NLP based ML web application which is used to classify the News Articles. <br>
 I have used Logistic Regression Classification model.
 
@@ -26,8 +26,8 @@ I have used Logistic Regression Classification model.
 ## Objectives
 This web application is created for News Article sorting, Nowadays there are many sources to generate news which are in huge amount of data, so this app will help the user to sort the news according to users choice.
 
-## LifeCycle of Machine Learning Project
-Raodmap of implementing machine learning application.
+## Life Cycle of Machine Learning Project
+Life Cycle of implementing machine learning application.
 - Gathering the Data
 - Data Preparation
 - Data Preprocessing
@@ -36,13 +36,13 @@ Raodmap of implementing machine learning application.
 - Deploy the model
 
 ## Dataset
-The dataset that is used in this project has taken from Kaggle. link is below.
+The dataset that is used in this project has taken from the Kaggle. link is below.
 - [datset](https://www.kaggle.com/c/learn-ai-bbc/data)
 
 ## Homepage
 ![homepage](plots/homepage/homepage.png)
 
-## :hammer_and_wrench: Requirement
+## :hammer_and_wrench: Requirements
 * windows (Operating System)
 * Python (Programming Language version 3.5+)
 * Django (Python Backend Framework)
